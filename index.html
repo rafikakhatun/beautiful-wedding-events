@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Celebration</title>
+    <!--tailwind cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--google font link-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .body-font {
+            font-family: "Montserrat", sans-serif;
+
+        }
+
+        .text-stylish {
+            font-family: "Great Vibes", cursive;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="body-font">
+    <!-- start header/Navigation section-->
+    <header class="w-full fixed z-50 bg-opacity-90">
+        <nav class="flex justify-between items-center bg-[#F0EFEE] py-4 px-6 relative">
+            <div class="text-[#DA2877] text-stylish text-2xl font-bold">R & S</div>
+
+
+            <!-- navigation responsive button-->
+
+            <!--hidden check box for toggle-->
+            <input type="checkbox" id="menu-toggle" class="hidden peer">
+            <!-- click small device menubar icon -->
+            <label for="menu-toggle" class="md:hidden">
+                <i class="fa-solid fa-bars text-[#DA2877] text-lg"></i>
+            </label>
+
+            <!--desktop menu-->
+            <ul class="md:flex gap-2 md:space-x-8 hidden">
+
+                <li class="text-gray-800  text-base hover:text-[#DA2877]"><a href="">Home</a></li>
+                <li class="text-gray-800 text-base hover:text-[#DA2877]"><a href="">Couple</a></li>
+                <li class="text-gray-800 text-base hover:text-[#DA2877]"><a href="">Event</a></li>
+                <li class="text-gray-800 text-base hover:text-[#DA2877]"><a href="">Gallery</a></li>
+                <li class="text-gray-800 text-base hover:text-[#DA2877]"><a href="">RSVP</a></li>
+
+            </ul>
+
+            <!--mobile Menu-->
+
+
+     <ul class="md:hidden hidden peer-checked:flex flex-col absolute top-16 left-0 w-full bg-[#BD195D] rounded-b-3xl text-white">
+        
+        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Home</a></li>
+        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Couple</a></li>
+        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Event</a></li>
+        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Gallery</a></li>
+        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">RSVP</a></li>
+    
+
+    </ul>
+
+           
+
+
+
+
+        </nav>
+        
+    </header>
+     
+    <!-- end header/Navigation section-->
+
+    <!-- start hero section-->
+    <div class="w-full h-screen bg-cover bg-center  flex justify-center items-center relative"
+        style="background-image: url('/image/background-img.avif');">
+        <div class="absolute inset-0 bg-black/50 bg-opacity-50"></div>
+        <div class="relative z-10  text-white">
+            <p class="text-2xl font-medium mb-4 text-center">We're Getting Married</p>
+            <h1 class="text-stylish text-6xl md:text-8xl mb-6 text-center ">Sndp & Riya</h1>
+            <p class="text-xl  text-center">June 15, 2025 • Kolkata, India</p>
+
+
+            <div class="text-center mt-10 space-x-3">
+                <a class="px-6 py-3 bg-[#BD195D] hover:bg-pink-600 rounded-full" href="#">RSVP</a>
+                <a class="px-6 py-3 border-2 rounded-full border-white hover:bg-white hover:text-pink-600"
+                    href="#">Event Details</a>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end hero section-->
+
+    <!-- start our love story section-->
+    <div class="max-w-full mx-auto bg-[#FDF1F8] py-18 px-8">
+        <div>
+            <h1 class="text-center text-5xl text-stylish text-[#DA2877] ">Our Love Story</h1>
+
+        </div>
+
+        <!--mr. and mrs. intro-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-12">
+            <!--mr. sndp intro-->
+            <div class="text-center">
+                <div class="w-64 h-64 relative inline-block">
+                    <img src="/image/boy-img.avif" alt="man-img" class="w-full h-full object-cover rounded-full">
+                </div>
+                <h1 class="text-2xl font-semibold mt-4">Sndp Bag</h1>
+                <p class="text-[#374151] mt-2">Son of Mr. & Mrs. Bag</p>
+                <p class="text-[#374151] mt-6 ">Sndp is a software engineer with a passion for music and travel.
+                    He <br class="hidden md:inline"> loves exploring new hiking trails and is known for his infectious
+                    <br class="hidden md:inline"> laugh.
+                </p>
+            </div>
+
+            <!--mrs. riya intro-->
+
+            <div class="text-center">
+                <div class="w-64 h-64 relative inline-block">
+                    <img src="/image/girls-img.avif" alt="girl-img" class="w-full h-full object-cover rounded-full ">
+                </div>
+                <h1 class=" text-2xl font-semibold mt-4">Riya Hoodati</h1>
+                <p class="text-[#374151] mt-2 ">Daughter of Mr. & Mrs. Hoodati</p>
+                <p class="text-[#374151] mt-6">Riya is a marketing executive who loves painting and baking.
+                    She's <br class="hidden md:inline"> known for her creativity and the way she lights up any room with
+                    her smile.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-16 text-center max-w-3xl mx-auto">
+            <p class="text-[#374151] text-xl ">We met 5 years ago during a friend's birthday party and instantly
+                connected.
+                After years of friendship that blossomed into love,
+                Sndp proposed at the same spot where we first met. We've been on countless adventures together and
+                can't wait to begin our greatest journey yet!
+            </p>
+        </div>
+
+
+    </div>
+
+    <!-- end our love story section -->
+
+    <!-- start Wedding Events and our venue location section-->
+    <div class="w-full bg-white p-14">
+
+        <div class="text-center mt-4">
+            <h1 class="text-5xl text-stylish text-[#DA2877]">Wedding Events</h1>
+
+        </div>
+
+        <!--card section-->
+
+        <div class=" grid grid-cols-1 md:grid-cols-3 gap-8 gap-x-12 mt-16">
+
+            <!--card Wedding Ceremony-->
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md  ">
+                <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-user-tie text-3xl  text-[#DA2877] "></i>
+                </div>
+                <h1 class="text-2xl font-semibold mt-4">Wedding Ceremony</h1>
+                <p class="mt-4 text-[#374151] ">Join us as we exchange vows and celebrate our commitment.</p>
+                <p class="font-medium"><i class="fa-solid fa-calendar text-[#374151] mt-6 mr-2"></i>June 15, 2025
+                </p>
+                <p class="font-medium"><i class="fa-solid fa-clock text-[#374151] mr-2"></i>10:00 AM - 12:00 PM</p>
+                <p class="font-medium"><i class="fa-solid fa-location-dot text-[#374151] mr-2"></i>Taj Bengal,
+                    Kolkata</p>
+
+
+            </div>
+
+            <!--card Wedding Reception-->
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md ">
+                <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
+                    <i class="fas fa-glass-cheers text-3xl  text-[#DA2877]"></i>
+                </div>
+                <h1 class="text-2xl font-semibold mt-4">Wedding Reception</h1>
+                <p class=" mt-4 text-[#374151]">Celebrate our new beginning with dinner, dancing and joy!</p>
+                <p class="font-medium"><i class="fa-solid fa-calendar text-[#374151] mt-4 mr-2"></i>June 15, 2025
+                </p>
+                <p class="font-medium"><i class="fa-solid fa-clock text-[#374151] mr-2"></i>6:00 PM - 11:00 PM</p>
+                <p class="font-medium"><i class="fa-solid fa-location-dot text-[#374151] mr-2"></i>The Oberoi Grand,
+                    Kolkata</p>
+
+
+            </div>
+
+            <!--card Mehndi Ceremony-->
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md">
+                <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-hand-sparkles text-3xl  text-[#DA2877]"></i>
+                </div>
+                <h1 class="text-2xl font-semibold mt-4">Mehndi Ceremony</h1>
+                <p class=" mt-4 text-[#374151] tracking-tight">Join the bride for traditional henna application and
+                    celebrations.</p>
+                <p class="font-medium"><i class="fa-solid fa-calendar text-[#374151] mt-4 mr-2"></i>June 13, 2025
+                </p>
+                <p class="font-medium"><i class="fa-solid fa-clock text-[#374151] mr-2"></i>3:00 PM - 7:00 PM</p>
+                <p class="font-medium"><i class="fa-solid fa-location-dot text-[#374151] mr-2"></i>Hoodati
+                    Residence, Kolkata</p>
+
+            </div>
+
+
+        </div>
+
+
+        <!--venue location-->
+        <div class="mt-16 text-center">
+            <h1 class="text-2xl font-semibold">Venue Location</h1>
+        </div>
+
+        <!--wedding location img-->
+        <div class="w-full h-60 mx-auto mt-2 ">
+            <img class=" w-full h-full  object-cover rounded-md mt-4" src="/image/wedding-location.avif" alt="">
+        </div>
+
+
+
+
+    </div>
+    <!-- End Wedding Events and our venue location section-->
+
+    <!-- start our moment Section-->
+
+    <div class="w-full px-12 py-16 bg-[#FDF1F8] ">
+
+        <div class="mt-12 text-center">
+            <h1 class="text-stylish text-5xl text-[#DA2877]">Our Moments</h1>
+        </div>
+
+        <!--our moments all picture-->
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-1.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+            <div class="h-64 inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-6.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-3img.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-4.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-5.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+                <img src="/image/moment-6.avif" alt="photo"
+                    class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end our moment Section-->
+
+    <!-- start Join Our Celebration / send RSVP section form -->
+
+    <div class="mt-12 text-center">
+        <h1 class="text-stylish text-5xl text-[#DA2877]">Join Our Celebration</h1>
+    </div>
+
+    <!-- full div-->
+
+    <div class="w-full py-14 px-10 bg-white">
+        <!--form container-->
+        <div class="max-w-3xl bg-[#FDF1F8] mx-auto p-8 mt-5 rounded-xl shadow-md">
+
+            <div class="mt-2">
+                <h1 class="text-center text-md text-[#374151] tracking-tight">We would be honored to have you join us on
+                    our special day.
+                    Please let us know if you'll <br class="hidden md:block"> be able to attend by filling out the form
+                    below.
+                </h1>
+            </div>
+
+
+            <form action="" class="space-y-6 mt-6 text-[#374151] ">
+
+                <div class="grid grid-cols-1 md:grid-cols-2 md:space-x-4">
+                    <!--name field-->
+                    <div class="flex flex-col space-y-2">
+                        <label for="">Full Name</label>
+                        <input
+                            class="px-4 py-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600  "
+                            type="text">
+                    </div>
+
+                    <!--Email field -->
+                    <div class="flex flex-col space-y-2 mt-3 md:mt-0">
+                        <label for="">Email</label>
+                        <input
+                            class="px-4 py-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 "
+                            type="Email">
+                    </div>
+                </div>
+
+                <!--Number of Guest-->
+                <div class="flex flex-col space-y-2">
+                    <label for="guest">Number of Guests</label>
+                    <select
+                        class="px-4 py-3  bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600  "
+                        name="" id="guest">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+
+                <!--attend section-->
+
+                <label for="attend">Will you attend</label>
+                <div id="attend" class="space-x-3 mt-2">
+                    <label for="">
+                        <input type="radio">
+                        <span class="text-black">Joyfully Accept</span>
+                    </label>
+
+                    <label for="">
+                        <input type="radio">
+                        <span class="text-black"> Regretfully Decline</span>
+                    </label>
+                </div>
+
+
+
+
+
+                <!--message for couple-->
+                <div>
+                    <label for="">Message for the Couple (Optional)</label>
+                    <textarea rows="4"
+                        class=" mt-2 w-full px-4 py-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600  "
+                        name="" id=""></textarea>
+                </div>
+
+                <!--button-->
+                <div class="flex justify-center items-center">
+
+                    <button class="px-8 py-3 bg-[#DA2877] rounded-3xl hover:bg-pink-500">
+                        <a class="text-white" href="">Send RSVP</a>
+                    </button>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <!-- start Join Our Celebration / send RSVP form section-->
+
+    <!--start footer section-->
+    <footer class="w-full px-8 py-12 bg-[#111827] text-white flex justify-center items-center">
+        <div class="max-w-6xl mx-auto  text-center space-y-7">
+            <h1 class="text-4xl  mt-5 text-stylish">Sndp & Riya</h1>
+            <p class="">Thank you for being part of our special day!</p>
+            <!--social icon-->
+            <div class="flex flex-row justify-center gap-8">
+
+                <i class="fa-brands fa-instagram text-2xl hover:text-pink-700"></i>
+                <i class="fa-brands fa-facebook-f text-2xl hover:text-pink-700"></i>
+                <i class="fa-brands fa-twitter text-2xl hover:text-pink-700"></i>
+
+            </div>
+
+            <p class="text-[#9BA3AF] mt-6">June 15, 2025 • Kolkata, India</p>
+
+
+        </div>
+    </footer>
+    <!--end footer section-->
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
