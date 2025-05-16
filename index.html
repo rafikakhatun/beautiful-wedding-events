@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--aos cdn link-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <style>
         .body-font {
@@ -61,26 +65,27 @@
             <!--mobile Menu-->
 
 
-     <ul class="md:hidden hidden peer-checked:flex flex-col absolute top-16 left-0 w-full bg-[#BD195D] rounded-b-3xl text-white">
-        
-        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Home</a></li>
-        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Couple</a></li>
-        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Event</a></li>
-        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Gallery</a></li>
-        <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">RSVP</a></li>
-    
+            <ul
+                class="md:hidden hidden peer-checked:flex flex-col absolute top-16 left-0 w-full bg-[#BD195D] rounded-b-3xl text-white">
 
-    </ul>
+                <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Home</a></li>
+                <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Couple</a></li>
+                <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Event</a></li>
+                <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">Gallery</a></li>
+                <li class="py-2 ml-2 hover:underline  transition duration-300"><a href="">RSVP</a></li>
 
-           
+
+            </ul>
+
+
 
 
 
 
         </nav>
-        
+
     </header>
-     
+
     <!-- end header/Navigation section-->
 
     <!-- start hero section-->
@@ -89,11 +94,13 @@
         <div class="absolute inset-0 bg-black/50 bg-opacity-50"></div>
         <div class="relative z-10  text-white">
             <p class="text-2xl font-medium mb-4 text-center">We're Getting Married</p>
-            <h1 class="text-stylish text-6xl md:text-8xl mb-6 text-center ">Sndp & Riya</h1>
+            <h1 class="text-stylish text-6xl md:text-8xl mb-6 text-center " data-aos="flip-left"
+                data-aos-easing="ease-out-cubic" data-aos-duration="2000">Sndp & Riya
+            </h1>
             <p class="text-xl  text-center">June 15, 2025 • Kolkata, India</p>
 
 
-            <div class="text-center mt-10 space-x-3">
+            <div class="text-center mt-10" data-aos="fade-down">
                 <a class="px-6 py-3 bg-[#BD195D] hover:bg-pink-600 rounded-full" href="#">RSVP</a>
                 <a class="px-6 py-3 border-2 rounded-full border-white hover:bg-white hover:text-pink-600"
                     href="#">Event Details</a>
@@ -114,7 +121,7 @@
         <!--mr. and mrs. intro-->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-12">
             <!--mr. sndp intro-->
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-right">
                 <div class="w-64 h-64 relative inline-block">
                     <img src="image/boy-img.avif" alt="man-img" class="w-full h-full object-cover rounded-full">
                 </div>
@@ -128,7 +135,7 @@
 
             <!--mrs. riya intro-->
 
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-left">
                 <div class="w-64 h-64 relative inline-block">
                     <img src="image/girls-img.avif" alt="girl-img" class="w-full h-full object-cover rounded-full ">
                 </div>
@@ -160,7 +167,7 @@
     <div class="w-full bg-white p-14">
 
         <div class="text-center mt-4">
-            <h1 class="text-5xl text-stylish text-[#DA2877]">Wedding Events</h1>
+            <h1 class="text-5xl text-stylish text-[#DA2877]" data-aos="flip-right">Wedding Events</h1>
 
         </div>
 
@@ -169,7 +176,7 @@
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-8 gap-x-12 mt-16">
 
             <!--card Wedding Ceremony-->
-            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md  ">
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md   " data-aos="flip-up">
                 <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
                     <i class="fa-solid fa-user-tie text-3xl  text-[#DA2877] "></i>
                 </div>
@@ -185,7 +192,7 @@
             </div>
 
             <!--card Wedding Reception-->
-            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md ">
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md " data-aos="flip-up">
                 <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
                     <i class="fas fa-glass-cheers text-3xl  text-[#DA2877]"></i>
                 </div>
@@ -201,7 +208,7 @@
             </div>
 
             <!--card Mehndi Ceremony-->
-            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md">
+            <div class="bg-[#FDF1F8] p-8 text-center rounded-lg shadow-md" data-aos="flip-up">
                 <div class="w-20 h-20  bg-[#FBE7F2] rounded-full flex justify-center items-center mx-auto">
                     <i class="fa-solid fa-hand-sparkles text-3xl  text-[#DA2877]"></i>
                 </div>
@@ -226,7 +233,8 @@
         </div>
 
         <!--wedding location img-->
-        <div class="w-full h-60 mx-auto mt-2 ">
+        <div class="w-full h-60 mx-auto mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <img class=" w-full h-full  object-cover rounded-md mt-4" src="image/wedding-location.avif" alt="">
         </div>
 
@@ -247,32 +255,32 @@
         <!--our moments all picture-->
         <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
 
-            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg" data-aos="flip-up">
                 <img src="image/moment-1.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
 
-            <div class="h-64 inline-block overflow-hidden rounded-lg">
+            <div class="h-64 inline-block overflow-hidden rounded-lg" data-aos="flip-up">
                 <img src="image/moment-6.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
 
-            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg" data-aos="flip-up">
                 <img src="image/moment-3img.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
 
-            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg" data-aos="flip-down">
                 <img src="image/moment-4.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
 
-            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg" data-aos="flip-down">
                 <img src="image/moment-5.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
 
-            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg">
+            <div class="h-64 shadow-md inline-block overflow-hidden rounded-lg" data-aos="flip-down">
                 <img src="image/moment-6.avif" alt="photo"
                     class="w-full h-full object-cover rounded-lg hover:scale-110 transition-transform duration-300">
             </div>
@@ -285,14 +293,14 @@
     <!-- start Join Our Celebration / send RSVP section form -->
 
     <div class="mt-12 text-center">
-        <h1 class="text-stylish text-5xl text-[#DA2877]">Join Our Celebration</h1>
+        <h1 class="text-stylish text-5xl text-[#DA2877]" data-aos="zoom-in-left">Join Our Celebration</h1>
     </div>
 
     <!-- full div-->
 
     <div class="w-full py-14 px-10 bg-white">
         <!--form container-->
-        <div class="max-w-3xl bg-[#FDF1F8] mx-auto p-8 mt-5 rounded-xl shadow-md">
+        <div class="max-w-3xl bg-[#FDF1F8] mx-auto p-8 mt-5 rounded-xl shadow-md" data-aos="zoom-in-right">
 
             <div class="mt-2">
                 <h1 class="text-center text-md text-[#374151] tracking-tight">We would be honored to have you join us on
@@ -384,10 +392,10 @@
     <!--start footer section-->
     <footer class="w-full px-8 py-12 bg-[#111827] text-white flex justify-center items-center">
         <div class="max-w-6xl mx-auto  text-center space-y-7">
-            <h1 class="text-4xl  mt-5 text-stylish">Sndp & Riya</h1>
+            <h1 class="text-4xl  mt-5 text-stylish"  data-aos="fade-up-right">Sndp & Riya</h1>
             <p class="">Thank you for being part of our special day!</p>
             <!--social icon-->
-            <div class="flex flex-row justify-center gap-8">
+            <div class="flex flex-row justify-center gap-8"  data-aos="fade-up-right">
 
                 <i class="fa-brands fa-instagram text-2xl hover:text-pink-700"></i>
                 <i class="fa-brands fa-facebook-f text-2xl hover:text-pink-700"></i>
@@ -410,7 +418,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
